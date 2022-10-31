@@ -4,7 +4,8 @@
 <br>
 
 ## 상세 내용
-![캡처](https://user-images.githubusercontent.com/100760303/198926107-9f9a3290-122f-4e81-bfcb-d5187c3b8e57.PNG)
+<img width="60%" src="https://user-images.githubusercontent.com/100760303/198926107-9f9a3290-122f-4e81-bfcb-d5187c3b8e57.PNG"/>
+<img width="60%" src="https://user-images.githubusercontent.com/100760303/198934275-2b92185c-4088-4709-9e92-275581a1de50.PNG"/>
 
 소비자 데이터를 통해 기업의 입장에서 고객 데이터를 분석합니다.
 분석한 내용은 다음과 같습니다.
