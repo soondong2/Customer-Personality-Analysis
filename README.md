@@ -29,5 +29,15 @@
 
 <br>
 
+## 파생변수
+- `Age` : `Year_Birth` 고객의 생년월일 컬럼을 이용해 `Age` 나이 컬럼 생성 후 생년월일 컬럼은 삭제하였습니다.
+- `Age_range` : 연속형 변수인 나이를 분석하고 시각화하는데 활용하기 위해 구간화하여 청년, 장년, 중년, 노년으로 구분하는 파생변수를 생성합니다.
+- `Children` : Kidhome은 총 자녀의 수, Teenhome은 자녀 중 청소년인 자녀의 수로 이해를 했으나 데이터를 살펴보니 의문점이 생겼습니다. Kidhome은 0명인데 Teenhome은 1명 이상인 값들이 보이고 있습니다. Teenhome은 청소년인 자녀를 나타내고, Kidhome은 총 자녀의 수 - 청소년 자녀의 수를 나타내는 게 아닐까? 라는 생각이 들어, 총 자녀의 수를 나타내는 Kidhome + Teenhome = `Children` 라는 변수를 생성합니다.
+- `Total_Accepted` : 캠페인 컬럼을 살펴보니 이전 캠페인을 수락했더라도 다음 캠페인을 또 다시 제안 받을 수 있고, 수락이 가능한 것으로 판단되어 총 캠페인 수락 횟수를 나타내는 `Total_Accepted` 변수를 생성합니다.
+- `Total_spent` : 와인, 과일, 고기, 어류, 사탕, 금에 사용한 총 금액을 나타내는 `Total_spent`  파생변수를 생성합니다.
+- `Expenditure_ratio` : 소득 대비 소비자가 소비에 사용하는 금액 비율을 산출하여 파생변수를 생성합니다.
+
+<br>
+
 ## 분석 결과
 https://www.notion.so/soondong/Customer-Personality-Analysis-7fec08e6489649869b85174615bcb264
